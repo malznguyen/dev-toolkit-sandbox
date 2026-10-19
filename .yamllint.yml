@@ -1,0 +1,10 @@
+extends: default
+
+rules:
+  # GitHub's own examples omit "---"; requiring it adds noise.
+  document-start: disable
+  # "on:" is a workflow keyword, not a boolean.
+  truthy:
+    check-keys: false
+  line-length:
+    max: 120

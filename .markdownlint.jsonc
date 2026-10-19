@@ -1,0 +1,8 @@
+{
+  // Start from markdownlint's defaults, then relax rules that do not fit this repo.
+  "default": true,
+  // Prose is wrapped by hand; long links and tables should not fail CI.
+  "MD013": false,
+  // Templates such as PULL_REQUEST_TEMPLATE.md intentionally start with "##".
+  "MD041": false
+}
