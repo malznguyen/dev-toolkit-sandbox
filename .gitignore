@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+# Environment and secrets (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+tmp/
+.cache/
+
+# Common build and dependency output
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+target/
